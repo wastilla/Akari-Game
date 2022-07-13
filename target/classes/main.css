@@ -1,0 +1,77 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+ .controls-layout {
+   -fx-padding: 75px;
+   -fx-alignment: center;
+ }
+
+  .vert-controls-layout {
+    -fx-alignment: center;
+    -fx-pref-width: 500px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 16px;
+  }
+
+  .congrats-Message{
+    -fx-text-fill: #228B22
+  }
+
+ .tile{
+    -fx-background-color: #efe4da;
+    -fx-text-fill: #766f65;
+    -fx-padding: 25px;
+ }
+
+ .grid{
+    -fx-alignment: center;
+    -fx-padding: 25px;
+ }
+
+.corridor{
+    -fx-background-color: #ffffff;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+ }
+
+ .illegalLamp{
+    -fx-background-color: #ffcccb;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 16px;
+ }
+
+ .lit-corridor{
+     -fx-background-color: #ffffe0;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 16px;
+ }
+
+ .wall{
+    -fx-background-color: #000000
+    -fx-text-fill #766f65;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+ }
+
+ .clue{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #000000
+    -fx-pref-width 40px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 15px;
+
+ }
+
+ .solved-clue{
+        -fx-background-color: #90ee90
+        -fx-text-fill #766f65;
+        -fx-pref-width: 40px;
+        -fx-pref-height: 40px;
+        -fx-font-size: 15px;
+ }
